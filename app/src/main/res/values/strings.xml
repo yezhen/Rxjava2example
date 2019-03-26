@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Rxjava2example</string>
+    <string name="page_with_number">第%d页</string>
+</resources>
