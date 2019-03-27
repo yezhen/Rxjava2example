@@ -17,6 +17,7 @@ public class NetWork {
 
     private static ElementaryApi mElementaryApi;
     private static GankApi mGankApi;
+    private static FakeApi mFakeApi;
 
     public static ElementaryApi getElementaryApi() {
         if (mElementaryApi == null) {
@@ -43,6 +44,13 @@ public class NetWork {
         }
         return mGankApi;
 
+    }
+
+    public static FakeApi getFakeApi() {
+        if (mFakeApi == null) {
+            mFakeApi = new FakeApi();
+        }
+        return mFakeApi;
     }
 
 

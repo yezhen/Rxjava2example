@@ -11,6 +11,8 @@ import android.support.v7.widget.Toolbar;
 
 import com.org.example.module.elementary.ElementaryFragment;
 import com.org.example.module.map.MapFragment;
+import com.org.example.module.token.TokenFragment;
+import com.org.example.module.zip.ZipFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -42,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
                     case 1:
                         return new MapFragment();
                     case 2:
-                        return new ElementaryFragment();
+                        return new ZipFragment();
                     case 3:
-                        return new ElementaryFragment();
+                        return new TokenFragment();
                     case 4:
                         return new ElementaryFragment();
                     case 5:
@@ -70,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                     case 2:
                         return "压缩(zip)";
                     case 3:
-                        return "基本3";
+                        return "TOKEN(FLATMAP)";
                     case 4:
                         return "基本4";
                     case 5:
