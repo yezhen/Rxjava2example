@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 import com.org.example.module.elementary.ElementaryFragment;
 import com.org.example.module.map.MapFragment;
 import com.org.example.module.token.TokenFragment;
+import com.org.example.module.tokenAnvanced.TokenAdvancedFragment;
 import com.org.example.module.zip.ZipFragment;
 
 import butterknife.BindView;
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                     case 3:
                         return new TokenFragment();
                     case 4:
-                        return new ElementaryFragment();
+                        return new TokenAdvancedFragment();
                     case 5:
                         return new ElementaryFragment();
                     default:
@@ -74,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                     case 3:
                         return "TOKEN(FLATMAP)";
                     case 4:
-                        return "基本4";
+                        return "Token_高级(retryWhen)";
                     case 5:
                         return "基本5";
                     default:

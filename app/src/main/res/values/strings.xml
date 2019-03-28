@@ -2,4 +2,5 @@
     <string name="app_name">Rxjava2example</string>
     <string name="page_with_number">第%d页</string>
     <string name="got_data">获取到的数据：\nID：%1$d\n用户名：%2$s</string>
+    <string name="got_token_and_data">token:%1$s\n\n获取到的数据：\nID：%2$d\n用户名：%3$s</string>
 </resources>
