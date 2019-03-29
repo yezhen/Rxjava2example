@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
+import com.org.example.module.cache.CacheFragment;
 import com.org.example.module.elementary.ElementaryFragment;
 import com.org.example.module.map.MapFragment;
 import com.org.example.module.token.TokenFragment;
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     case 4:
                         return new TokenAdvancedFragment();
                     case 5:
-                        return new ElementaryFragment();
+                        return new CacheFragment();
                     default:
                         return new ElementaryFragment();
                 }
@@ -77,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     case 4:
                         return "Token_高级(retryWhen)";
                     case 5:
-                        return "基本5";
+                        return "缓存(BehaviorSubject)";
                     default:
                         return "基本";
                 }
