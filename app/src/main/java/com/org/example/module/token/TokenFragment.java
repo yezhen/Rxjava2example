@@ -71,4 +71,14 @@ public class TokenFragment extends BaseFragment {
         mSwipeRefreshLayout.setColorSchemeColors(Color.BLUE, Color.YELLOW, Color.GREEN, Color.RED);
         return view;
     }
+
+    @Override
+    protected int getDialogRes() {
+        return R.layout.dialog_token;
+    }
+
+    @Override
+    protected int getTileRes() {
+        return R.string.title_token;
+    }
 }

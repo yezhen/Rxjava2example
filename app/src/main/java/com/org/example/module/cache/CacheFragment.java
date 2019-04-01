@@ -102,4 +102,14 @@ public class CacheFragment extends BaseFragment {
         mRecycleView.setAdapter(mAdapter);
         return view;
     }
+
+    @Override
+    protected int getDialogRes() {
+        return R.layout.dialog_cache;
+    }
+
+    @Override
+    protected int getTileRes() {
+        return R.string.title_cache;
+    }
 }

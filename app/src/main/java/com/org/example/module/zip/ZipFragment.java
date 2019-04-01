@@ -101,4 +101,14 @@ public class ZipFragment extends BaseFragment {
 
         return view;
     }
+
+    @Override
+    protected int getDialogRes() {
+        return R.layout.dialog_zip;
+    }
+
+    @Override
+    protected int getTileRes() {
+        return R.string.title_zip;
+    }
 }

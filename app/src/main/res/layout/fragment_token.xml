@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:paddingStart="8dp"
     android:paddingEnd="8dp">
-
+    <include layout="@layout/tip_bt" />
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"

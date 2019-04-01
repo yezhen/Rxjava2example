@@ -22,6 +22,8 @@
             android:layout_width="72dp"
             android:layout_height="wrap_content"
             android:text="加载" />
+
+        <include layout="@layout/tip_bt"/>
     </LinearLayout>
 
     <android.support.v4.widget.SwipeRefreshLayout

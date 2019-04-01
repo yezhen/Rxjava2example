@@ -75,6 +75,7 @@ public class Data {
                 .doOnNext(new Consumer<List<ItemBean>>() {
                     @Override
                     public void accept(List<ItemBean> itemBeans) throws Exception {
+                        //写入磁盘
                         DataBase.getInstance().writeItems(itemBeans);
                     }
                 })

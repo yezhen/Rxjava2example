@@ -32,6 +32,9 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="下一页" />
+
+        <include layout="@layout/tip_bt" />
+
     </LinearLayout>
 
     <android.support.v4.widget.SwipeRefreshLayout

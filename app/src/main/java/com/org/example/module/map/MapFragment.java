@@ -109,4 +109,14 @@ public class MapFragment extends BaseFragment {
                     }
                 });
     }
+
+    @Override
+    protected int getDialogRes() {
+        return R.layout.dialog_map;
+    }
+
+    @Override
+    protected int getTileRes() {
+        return R.string.title_map;
+    }
 }

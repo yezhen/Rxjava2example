@@ -84,4 +84,14 @@ public class ElementaryFragment extends BaseFragment {
                     }
                 });
     }
+
+    @Override
+    protected int getDialogRes() {
+        return R.layout.dialog_elemetary;
+    }
+
+    @Override
+    protected int getTileRes() {
+        return R.string.title_elementary;
+    }
 }
